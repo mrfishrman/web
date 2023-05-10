@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import cgi
+import cgitb
+import os
+
+cgitb.enable()
+
+#create instance of FieldStorage
+form = cgi.FieldStorage()
+
+#get data from fields
+first_name = form.getvalue('first_name'
+)
